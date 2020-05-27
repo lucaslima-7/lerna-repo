@@ -1,0 +1,12 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "helpie-client": "lerna --scope=helpie-client run start",
+    "helpie-pro": "lerna --scope=helpie-pro run start"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.0"
+  }
+}
